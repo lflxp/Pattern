@@ -60,3 +60,18 @@ func (e *Factory) Create(etype Type) Event {
 		return nil
 	}
 }
+
+// 按照第二种实现方式，分别给Start和End类型的Event单独提供一个工厂方法
+// Start类型Event的工厂方法
+func OfStart() Event {
+	return &StartEvent{
+		content: "this is start event",
+	}
+}
+
+// End类型Event的工厂方法
+func OfEnd() Event {
+	return &EndEvent{
+		content: "this is end event",
+	}
+}

@@ -14,3 +14,16 @@ func TestFactoryCreate(t *testing.T) {
 		t.Errorf("expect End, but actual %v.", e.EventType())
 	}
 }
+
+// 第二种测试
+func TestEvent(t *testing.T) {
+	e := OfStart()
+	if e.EventType() != Start {
+		t.Errorf("expect Start, but actual %v.", e.EventType())
+	}
+
+	e = OfEnd()
+	if e.EventType() != End {
+		t.Errorf("expect Start, but actual %v.", e.EventType())
+	}
+}
