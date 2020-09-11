@@ -3,10 +3,10 @@ package 代理模式
 import (
 	"testing"
 
-	"github.com/lflxp/123456/结构型模式/代理模式/db"
-	_ "github.com/lflxp/123456/结构型模式/代理模式/plugin"
-	"github.com/lflxp/123456/结构型模式/适配器模式/抽象工厂模式/pipeline"
-	"github.com/lflxp/123456/结构型模式/适配器模式/抽象工厂模式/plugin"
+	"github.com/lflxp/Pattern/结构型模式/代理模式/db"
+	_ "github.com/lflxp/Pattern/结构型模式/代理模式/plugin"
+	"github.com/lflxp/Pattern/结构型模式/适配器模式/抽象工厂模式/pipeline"
+	"github.com/lflxp/Pattern/结构型模式/适配器模式/抽象工厂模式/plugin"
 )
 
 func TestDbOutput(t *testing.T) {

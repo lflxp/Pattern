@@ -3,7 +3,7 @@ package pipeline
 import (
 	"fmt"
 
-	plugin "github.com/lflxp/123456/结构型模式/组合模式/抽象工厂模式/plugin"
+	plugin "github.com/lflxp/Pattern/结构型模式/组合模式/抽象工厂模式/plugin"
 )
 
 // Config

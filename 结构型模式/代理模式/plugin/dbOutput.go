@@ -3,9 +3,9 @@ package plugin
 import (
 	"fmt"
 
-	msg "github.com/lflxp/123456/创建型模式"
-	"github.com/lflxp/123456/结构型模式/代理模式/db"
-	"github.com/lflxp/123456/结构型模式/适配器模式/抽象工厂模式/plugin"
+	msg "github.com/lflxp/Pattern/创建型模式"
+	"github.com/lflxp/Pattern/结构型模式/代理模式/db"
+	"github.com/lflxp/Pattern/结构型模式/适配器模式/抽象工厂模式/plugin"
 )
 
 // 在output中添加dboutput，用于通过反射创建dboutput对象

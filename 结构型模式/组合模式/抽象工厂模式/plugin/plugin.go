@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	msg "github.com/lflxp/123456/创建型模式"
+	msg "github.com/lflxp/Pattern/创建型模式"
 )
 
 type Type uint8

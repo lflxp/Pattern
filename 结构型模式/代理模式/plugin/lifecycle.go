@@ -3,7 +3,7 @@ package plugin
 import (
 	"fmt"
 
-	. "github.com/lflxp/123456/结构型模式/适配器模式/抽象工厂模式/plugin"
+	. "github.com/lflxp/Pattern/结构型模式/适配器模式/抽象工厂模式/plugin"
 )
 
 type LifeCycle struct {

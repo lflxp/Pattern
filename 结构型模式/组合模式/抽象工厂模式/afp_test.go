@@ -3,7 +3,7 @@ package 抽象工厂模式
 import (
 	"testing"
 
-	pipeline "github.com/lflxp/123456/结构型模式/组合模式/抽象工厂模式/pipeline"
+	pipeline "github.com/lflxp/Pattern/结构型模式/组合模式/抽象工厂模式/pipeline"
 )
 
 func TestPipeline(t *testing.T) {

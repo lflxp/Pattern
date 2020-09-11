@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	msg "github.com/lflxp/123456/创建型模式"
+	msg "github.com/lflxp/Pattern/创建型模式"
 )
 
 // 在输入插件映射关系中加入kafka，用于通过反射创建input对象

@@ -19,3 +19,8 @@
 [文章链接](https://zhuanlan.zhihu.com/p/177025599)
 
 本文是基于《使用Go实现GoF的23种设计模式》文章制作而成，使用`go`语言实现23种设计模式，供自己学习和备用，也提供给广大的学习爱好者一起分享。
+
+# 单元测试
+
+> git clone https://github.com/lflxp/Pattern
+> cd Pattern && make

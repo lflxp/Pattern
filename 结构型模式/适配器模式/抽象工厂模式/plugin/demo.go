@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	msg "github.com/lflxp/123456/创建型模式"
+	msg "github.com/lflxp/Pattern/创建型模式"
 )
 
 // ============================根据接口实现struct==============================

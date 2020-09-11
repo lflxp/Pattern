@@ -1,7 +1,7 @@
 package pipeline
 
 import (
-	plugin "github.com/lflxp/123456/创建型模式/抽象工厂模式/plugin"
+	plugin "github.com/lflxp/Pattern/创建型模式/抽象工厂模式/plugin"
 )
 
 // Config

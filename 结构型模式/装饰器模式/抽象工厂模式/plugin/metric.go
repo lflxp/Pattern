@@ -1,8 +1,8 @@
 package plugin
 
 import (
-	msg "github.com/lflxp/123456/创建型模式"
-	"github.com/lflxp/123456/结构型模式/装饰器模式/抽象工厂模式/metric"
+	msg "github.com/lflxp/Pattern/创建型模式"
+	"github.com/lflxp/Pattern/结构型模式/装饰器模式/抽象工厂模式/metric"
 )
 
 type InputMetricDecorator struct {

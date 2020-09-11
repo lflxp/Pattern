@@ -3,8 +3,8 @@ package 抽象工厂模式
 import (
 	"testing"
 
-	pipeline "github.com/lflxp/123456/结构型模式/适配器模式/抽象工厂模式/pipeline"
-	"github.com/lflxp/123456/结构型模式/适配器模式/抽象工厂模式/plugin"
+	"github.com/lflxp/Pattern/结构型模式/适配器模式/抽象工厂模式/pipeline"
+	"github.com/lflxp/Pattern/结构型模式/适配器模式/抽象工厂模式/plugin"
 )
 
 func TestKafkaInputPipeline(t *testing.T) {
