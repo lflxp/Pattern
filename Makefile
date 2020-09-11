@@ -1,7 +1,7 @@
 # 1.完成文档名修改
 # 2.完成所有单元测试
 
-run: create struct
+test: create struct
 	@echo 开始测试
 	pwd
 
