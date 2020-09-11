@@ -28,6 +28,7 @@ func TestDbOutput(t *testing.T) {
 	}
 
 	p := pipeline.Of(config)
+	// 原文档里面没有写Init的pipeline方法导致测试不通过
 	p.Init()
 	p.Start()
 	p.Exec()

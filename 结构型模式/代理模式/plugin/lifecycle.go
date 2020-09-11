@@ -24,7 +24,3 @@ func (l *LifeCycle) Stop() {
 func (l *LifeCycle) Status() Status {
 	return l.status
 }
-
-func (l *LifeCycle) SetName(name string) {
-	l.name = name
-}
